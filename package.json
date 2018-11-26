@@ -4,7 +4,8 @@
   "description": "View projects's package.json dependencies/devDependencies",
   "main": "cli.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish-please": "publish-please"
   },
   "repository": {
     "type": "git",
