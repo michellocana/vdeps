@@ -2,7 +2,7 @@
   "name": "vdeps",
   "version": "0.0.1",
   "description": "View projects's package.json dependencies/devDependencies",
-  "main": "index.js",
+  "main": "cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,5 +26,14 @@
   "homepage": "https://github.com/michellocana/vdeps",
   "engines": {
     "node": ">=8.11.1"
-  }
+  },
+  "bin": {
+    "vdeps": "./cli.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "find-package-json": "^1.1.0",
+    "yargs": "^12.0.5"
+  },
+  "devDependencies": {}
 }
