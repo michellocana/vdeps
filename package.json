@@ -1,6 +1,6 @@
 {
   "name": "vdeps",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "View projects's package.json dependencies/devDependencies",
   "main": "cli.js",
   "scripts": {
