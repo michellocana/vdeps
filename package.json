@@ -1,0 +1,30 @@
+{
+  "name": "vdeps",
+  "version": "0.0.1",
+  "description": "View projects's package.json dependencies/devDependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michellocana/vdeps.git"
+  },
+  "keywords": [
+    "package.json",
+    "dependencies"
+  ],
+  "author": {
+    "name": "Michell Ocaña",
+    "email": "ocana.1997@hotmail.com",
+    "url": "https://twitter.com/idkcss"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michellocana/vdeps/issues"
+  },
+  "homepage": "https://github.com/michellocana/vdeps",
+  "engines": {
+    "node": ">=8.11.1"
+  }
+}
